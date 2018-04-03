@@ -83,4 +83,7 @@
 
 }
 
-
+@media (max-width: 650px) {
+  .top-nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
