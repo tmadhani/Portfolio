@@ -32,28 +32,51 @@
 .photo-grid {
 	overflow: hidden;
 }
-.photo-cell.black, .photo-cell.maroon {
+.photo-cell.black{
 	float: left;
+	width: 48%;
+	display: inline-block;
+}
+
+.photo-cell.maroon {
+	float: right;
 	width: 48%;
 	display: inline-block;
 }
 
 .photo-cell.green{
+	float: right;
+	width: 48%;
+	display: inline-block;
+}
+
+.photo-cell.lightblue{
 	float: left;
 	width: 48%;
 	display: inline-block;
 }
 
-.photo-cell.yellow, .photo-cell.bluish-purple{
+.photo-cell.bluish-purple{
 	float: right;
-	width: 24%;
+	width: 48%;
 	display: inline-block;
-	margin-left: 0;
 }
 
 
-.photo-cell.lightblue {
+.photo-cell.yellow {
 	float: left;
+	width: 48%;
+	display: inline-block;
+}
+
+.photo-cell.red {
+	float: left;
+	width: 48%;
+	display: inline-block;
+}
+
+.photo-cell.flower{
+	float: right;
 	width: 48%;
 	display: inline-block;
 }

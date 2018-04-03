@@ -11,31 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<!-- Add icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-	<script language="Javascript">
-	var randnum = Math.random();
-	var inum = 5;
-	var randl = Math.round(randnum * (inum-1)) + 1;
-	var colors = [];
-	colors[1] = "rgba(255, 204, 201, 0.8)";
-	colors[2] = "rgba(105, 143, 178, 0.8)";
-	colors[3] = "rgba(197, 204, 120, 0.8)";
-	colors[4] = "rgba(178, 144, 87, 0.8)";
-	colors[5] = "rgba(151, 155, 255, 0.8)";
-	var color = colors[randl];
-	</script>
-
-
 </head>
-<body class="body body-home">
-	<script language="Javascript">
-	document.write('<div class="square" style="background-color: ' + color + '; ">')
-	</script>
-	
+<body class="body body-home Site">
 	<a href="#main-content" class="skip">Skip navigation</a>
-	
-
 	<header>
 		<nav id = "top-nav" class="top-nav">
 			<div class="logo">
@@ -43,34 +21,31 @@
        		</div>
 	       <ul>
 	            <li><a class="current-page" href="index.html">HOME</a></li>
-	            <li><a href="writing.html">Writing</a></li>
-	            <li><a href="Projects.html">Class Projects</a></li>
+	           	<li><a href="about.html">About Me</a></li>
+	            <li><a href="projects.html">Class Projects</a></li>
 	            <li><a href="resume.html">Resume</a></li>
-	            <li><a href="about.html">About Me</a></li>
 	        </ul>
    		</nav>
-	</header>
+	</header>	
 
-	
 <div></div>
 
-
 	<!--Hero Slider-->
-	<section class="cd-hero js-cd-hero js-cd-autoplay">
+	<section class="cd-hero js-cd-hero js-cd-autoplay Site-content">
 		<ul class="cd-hero__slider">
 			<li class="cd-hero__slide cd-hero__slide--selected js-cd-slide">
 				<div class="cd-hero__content cd-hero__content--full-width">
 					<h2>Welcome to my portfolio!</h2>
 					<p>My name is Tanya Madhani.</p>
-					<a href="#" class="cd-hero__btn">About Me</a>
+					<a href="about.html" class="cd-hero__btn">About Me</a>
 				</div> <!-- .cd-hero__content -->
 			</li>
 
 			<li class="cd-hero__slide js-cd-slide">
 				<div class="cd-hero__content cd-hero__content--half-width">
-					<h2>Slide title here</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-					<a href="#0" class="cd-hero__btn">Start</a>
+					<h2>Check out my projects!</h2>
+					<p>Projects range from graphic design to social media analysis.</p>
+					<a href="projects.html" class="cd-hero__btn">Start</a>
 				</div> <!-- .cd-hero__content -->
 
 				<div class="cd-hero__content cd-hero__content--half-width cd-hero__content--img">
@@ -84,47 +59,36 @@
 				</div> <!-- .cd-hero__content -->
 
 				<div class="cd-hero__content cd-hero__content--half-width">
-					<h2>Slide title here</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-					<a href="#0" class="cd-hero__btn">Start</a>
-				</div> <!-- .cd-hero__content -->
-				
-			</li>
-
-			<li class="cd-hero__slide cd-hero__slide--video js-cd-slide">
-				<div class="cd-hero__content cd-hero__content--full-width">
-					<h2>Slide title here</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
-					<a href="#0" class="cd-hero__btn">Learn more</a>
-				</div> <!-- .cd-hero__content -->
-
-				<div class="cd-hero__content cd-hero__content--bg-video js-cd-bg-video" data-video="assets/video/video">
-					<!-- video element will be loaded using JavaScript -->
+					<h2>View my resumé!</h2>
+					<p>I'm about to finish my final year of undergrad at the University of Michigan.</p>
+					<a href="resume.html" class="cd-hero__btn">Start</a>
 				</div> <!-- .cd-hero__content -->
 			</li>
 		</ul> <!-- .cd-hero__slider -->
-
+		
 		<div class="cd-hero__nav js-cd-nav">
 			<nav>
 				<span class="cd-hero__marker cd-hero__marker--item-1 js-cd-marker"></span>
 				
 				<ul>
-					<li class="cd-selected"><a href="#0">About Me</a></li>
-					<li><a href="#0">Writing</a></li>
+					<li class="cd-selected"><a href="#0">About</a></li>
 					<li><a href="#0">Projects</a></li>
 					<li><a href="#0">Resumé</a></li>
 				</ul>
 			</nav> 
-		</div> <!-- .cd-hero__nav -->
+		</div> <!-- .cd-hero__nav -->	
 	</section> <!-- .cd-hero -->
-
-
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 	<footer class="footer">
 		<!-- Add font awesome icons -->
 	<a href="linkedin.com/in/tanyamadhani" class="fa fa-linkedin"></a>
 	<a href="instagram.com/tmadhani" class="fa fa-instagram"></a>
 	</footer>
-
+	
 	<script src="js/main.js"></script> <!-- Resource JavaScript for Hero Slider -->
 
 </body>
