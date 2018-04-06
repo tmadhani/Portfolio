@@ -74,6 +74,9 @@ h6{
 .main-content h1{
 	text-align: center;
 }
+.main-content p{
+	text-align: center;
+}
 .about, .work, .projects, .contact{
 	margin: auto;
 	padding-right: 3%;
@@ -203,6 +206,7 @@ footer p{
 	display: block;
 	margin: auto;
 	max-width: 1200px;
+	margin-top: 5%;
 }
 .photo-cell{
 	margin-bottom: 2%;

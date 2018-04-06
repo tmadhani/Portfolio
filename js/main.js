@@ -167,7 +167,7 @@
 	  	}
 	  	if (classList.length > 1) removeClass(el, classList.slice(1).join(' '));
 	}
-	$("nav select").change(function() {	
+$("nav select").change(function() {	
   window.location = $(this).find("option:selected").val();
 });
 })();
