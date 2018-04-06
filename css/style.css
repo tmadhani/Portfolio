@@ -71,7 +71,10 @@ h6{
 	flex: 1 0 auto;
 	margin-top: 110px;
 }
-.about, .work, .crafts, .contact{
+.main-content h1{
+	text-align: center;
+}
+.about, .work, .projects, .contact{
 	margin: auto;
 	padding-right: 3%;
 	padding-left: 3%;
@@ -192,11 +195,11 @@ footer p{
 }
 
 /*-----IMAGES PAGE ------*/
-.main-content-crafts{
+.main-content-projects{
 	margin-top: 250px;
 }
 /*photo gallery*/
-.crafts{
+.projects{
 	display: block;
 	margin: auto;
 	max-width: 1200px;
@@ -220,31 +223,31 @@ embed{
 /*--------ABOUT-------*/
 .circle {
 
-	width: 400px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10%;
-	border-radius: 200px;
+	margin-top: 12%;
+	margin-bottom: 10%;
+	border-radius: 250px;
 
 }
 
 .text {
 	color: #000000;
-	font-size: 16px;
+	font-size: 1em;
 	text-decoration: none;
 	text-align: center;
 	position: relative;
-  	top: translateY(70%);
-  	-webkit-transform: translateY(70%);
-  	opacity: 1;
+  	-webkit-transform: translateY(40%);
 }
 
 .name {
 
 	color: black;
-	font-size: 30px;
+	font-size: 1.75em;
 	opacity: 1;
+	text-align: center;
 
 }
 

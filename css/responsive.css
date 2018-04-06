@@ -32,44 +32,44 @@
 .photo-grid {
 	overflow: hidden;
 }
-.photo-cell.black{
+.photo-cell.expo{
 	float: left;
 	width: 48%;
 	display: inline-block;
 }
 
-.photo-cell.maroon {
+.photo-cell.wine {
 	float: right;
 	width: 48%;
 	display: inline-block;
 }
 
-.photo-cell.green{
+.photo-cell.snail{
 	float: right;
 	width: 48%;
 	display: inline-block;
 }
 
-.photo-cell.lightblue{
+.photo-cell.grapes{
 	float: left;
 	width: 48%;
 	display: inline-block;
 }
 
-.photo-cell.bluish-purple{
+.photo-cell.capstone{
 	float: right;
 	width: 48%;
 	display: inline-block;
 }
 
 
-.photo-cell.yellow {
+.photo-cell.instagram {
 	float: left;
 	width: 48%;
 	display: inline-block;
 }
 
-.photo-cell.red {
+.photo-cell.choco {
 	float: left;
 	width: 48%;
 	display: inline-block;
@@ -86,4 +86,17 @@
 @media (max-width: 650px) {
   .top-nav ul     { display: none; }
   nav select { display: inline-block; }
+}
+
+@media (max-width: 650px) {
+  .circle     { 
+  	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12%;
+	margin-bottom: 10%;
+	border-radius: 200px;
+
+	}
 }

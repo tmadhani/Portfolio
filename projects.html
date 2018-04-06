@@ -13,64 +13,57 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-	<script language="Javascript">
-	var randnum = Math.random();
-	var inum = 5;
-	var randl = Math.round(randnum * (inum-1)) + 1;
-	var colors = [];
-	colors[1] = "rgba(255, 204, 201, 0.8)";
-	colors[2] = "rgba(105, 143, 178, 0.8)";
-	colors[3] = "rgba(197, 204, 120, 0.8)";
-	colors[4] = "rgba(178, 144, 87, 0.8)";
-	colors[5] = "rgba(151, 155, 255, 0.8)";
-	var color = colors[randl];
-	</script>
-
-
 </head>
 <body class="body body-home">
 	<a href="#main-content" class="skip">Skip navigation</a>
 	<header>
 		<nav id = "top-nav" class="top-nav">
 			<div class="logo">
-			<a href="projects.html"><img src="img/portfolio_logo.png" alt="portfolio_logo that is the capital letter T to represent 'Tanya"></a>
+			<a href="index.html"><img src="img/portfolio_logo.png" alt="portfolio_logo that is the capital letter T to represent 'Tanya'"></a>
        		</div>
 	       <ul>
 	            <li><a href="index.html">HOME</a></li>
-	            <li><a href="about.html">About Me</a></li>
-	            <li><a class="current-page" href="projects.html">Class Projects</a></li>
+	           	<li><a href="about.html">About Me</a></li>
+	            <li><a href="projects.html" class = "current-page">Class Projects</a></li>
 	            <li><a href="resume.html">Resume</a></li>
 	        </ul>
+
+	        <div style="text-align: center"><select> 			    
+			    <option value="index.html">Home</option> 
+			    <option value="about.html">About Me</option> 
+			    <option value="projects.html" class = "current-page">Class Projects</option> 
+			    <option value="resume.html">Resume</option> 
+			</select></div>
    		</nav>
 	</header>
-	<div id="main-content" class="main-content main-content-crafts">
-		<h1 align="center">Check out some of my projects!</h1>
+	<div id="main-content" class="main-content main-content-projects">
+		<h1>Check out some of my projects!</h1>
 		<br>
 		<br>
 		<br>
 		<!--Photo Gallery-->
-		<section class="crafts">
+		<section class="projects">
 			<div class="photo-grid">
-				<div class="photo-cell yellow">
+				<div class="photo-cell instagram">
 					<img class="resp-img" src="img/img3.jpg" alt="instagram posting plan">
 				</div>
-				<div class="photo-cell  lightblue">
+				<div class="photo-cell  grapes">
 					<img class="resp-img" src="img/img6.jpg" alt="grapes photoshop">
 				</div>
-				<div class="photo-cell maroon ">
+				<div class="photo-cell wine ">
 					<img class="resp-img" src="img/img2.jpg" alt="wine">
 				</div>
-				<div class="photo-cell black">
+				<div class="photo-cell expo">
 					<img class="resp-img" src="img/img1.jpg" alt="expo poster">
 				</div>
-				<div class="photo-cell green">
+				<div class="photo-cell snail">
 					<img class="resp-img" src="img/img5.jpg" alt="snail logo guide">
 				</div>
-				<div class="photo-cell red">
+				<div class="photo-cell choco">
 					<img class="resp-img" src="img/img7.jpg" alt="capstone project report">
 				</div>
 
-				<div class="photo-cell bluish-purple">
+				<div class="photo-cell capstone">
 					<img class="resp-img" src="img/img4.jpg" alt="capstone project report">
 				</div>
 				<div class="photo-cell flower">
@@ -79,10 +72,10 @@
 			</div>
 		</section>
 	</div>
-</body>
 	<footer class="footer">
 		<!-- Add font awesome icons -->
 	<a href="linkedin.com/in/tanyamadhani" class="fa fa-linkedin"></a>
 	<a href="instagram.com/tmadhani" class="fa fa-instagram"></a>
 	</footer>
+</body>
 </html>
