@@ -9,12 +9,7 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-img{
-	position: absolute;
-	top: 65.5%;
-	left: 47%;
-	transform: translate(-30%, -20%);
-}
+
 .container img {
     width: 15%;
     height: auto;
