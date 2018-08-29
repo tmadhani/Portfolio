@@ -21,7 +21,7 @@ h1{
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 300;
 	text-align: center;
-	font-size: 64px;
+	font-size: 6em;
 
 }
 
@@ -89,7 +89,7 @@ img{
     padding-top: 180px;
     margin: 0 30px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
     color: #fff;
-    font-size: 1em;
+    font-size: 3em;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     text-decoration: none;
