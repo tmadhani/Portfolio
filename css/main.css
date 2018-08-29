@@ -47,7 +47,6 @@ img{
 
 /* resize images */
 .container img {
-    width: 6%;
     height: auto;
 }
 
